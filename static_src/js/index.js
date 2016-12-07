@@ -1,6 +1,6 @@
 import Local from './page/localStorage.js'
 
-const stor = Local;
+const stor = new Local;
 // читаем что у нас в localStorage, если передать 
 // имя, то читаем соответсвующее хранилище
 let ar = stor.readStorage(); // stor.readStorage('ya-ya');
