@@ -1,6 +1,6 @@
 import Local from './page/localStorage.js'
 
-const stor = new Local;
+const stor = new Local('da-da');
 
 // присвоить другое имя localStorage
 // на подобии курсора для плагина
